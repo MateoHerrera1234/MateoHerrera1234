@@ -1,428 +1,63 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mateo Herrera | Software Developer</title>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --bg-color: #0d1117;
-            --card-bg: #161b22;
-            --accent-neon: #00f2fe;
-            --accent-green: #00ff87;
-            --text-main: #f0f6fc;
-            --text-muted: #8b949e;
-            --border-color: #30363d;
-        }
+### Hola Mundo!, soy Mateo Herrera 👋
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Inter', sans-serif;
-            scroll-behavior: smooth;
-        }
+<p align="left">
+  <a href="https://mateoherrera1234.github.io/" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_VISITAR_MI_PORTAFOLIO_WEB-00F2FE?style=for-the-badge&logoColor=black" alt="Portafolio Web"/>
+  </a>
+</p>
 
-        body {
-            background-color: var(--bg-color);
-            color: var(--text-main);
-            line-height: 1.6;
-            overflow-x: hidden;
-        }
+#### Sobre mí 💻 🚀
 
-        /* Header / Navbar */
-        header {
-            position: fixed;
-            top: 0;
-            width: 100%;
-            background: rgba(13, 17, 23, 0.85);
-            backdrop-filter: blur(10px);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 1.2rem 5%;
-            z-index: 1000;
-            border-bottom: 1px solid var(--border-color);
-        }
+* 🎓 Estudiante de Ingeniería en Sistemas / Desarrollo de Software en la Universidad Técnica de Ambato (UTA) - Ecuador.
+* 💻 Desarrollador Full Stack con enfoque en .NET, C# y tecnologías web modernas.
+* 🏗️ Apasionado por la arquitectura limpia (Clean Architecture), buenas prácticas de desarrollo y el diseño de bases de datos robustas.
+* 🤝 Trabajo colaborativo aplicando Git, control de versiones y metodologías ágiles.
+* 🚀 Siempre explorando nuevas herramientas para optimizar el rendimiento y escalabilidad de las aplicaciones.
 
-        .logo {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: var(--accent-neon);
-            letter-spacing: -1px;
-        }
+---
 
-        .nav-container {
-            display: flex;
-            align-items: center;
-            gap: 2rem;
-        }
+### 🛠️ Tecnologías y herramientas
 
-        nav {
-            display: flex;
-            align-items: center;
-        }
+#### Principales — Dominio sólido
+<p>
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" />
+  <img src="https://img.shields.io/badge/.NET%20Web%20API-5C2D91?style=for-the-badge&logo=.net&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" />
+</p>
 
-        nav a {
-            color: var(--text-muted);
-            text-decoration: none;
-            margin-left: 2rem;
-            font-size: 0.9rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            transition: color 0.3s;
-        }
+#### Frameworks y herramientas adicionales
+<p>
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</p>
 
-        nav a:hover {
-            color: var(--accent-neon);
-        }
+---
 
-        .nav-github-btn {
-            background: rgba(0, 242, 254, 0.1);
-            color: var(--accent-neon);
-            border: 1px solid rgba(0, 242, 254, 0.3);
-            padding: 0.5rem 1rem;
-            border-radius: 6px;
-            font-size: 0.85rem;
-            font-weight: 600;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            margin-left: 1.5rem;
-        }
+### 📌 Proyectos destacados
 
-        .nav-github-btn:hover {
-            background: var(--accent-neon);
-            color: #000;
-            box-shadow: 0 0 10px rgba(0, 242, 254, 0.4);
-        }
+| Proyecto | Descripción | Tecnología |
+| :--- | :--- | :--- |
+| **LibroFacil** | Web API de gestión de libros aplicando Clean Architecture, DDD y EF Core. | C# / .NET |
+| **sistema-ventas-Frontend** | Interfaz frontend orientada a la gestión de ventas. | JavaScript |
 
-        /* Hero Section */
-        .hero {
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            padding: 0 10%;
-            background: radial-gradient(circle at 80% 20%, rgba(0, 242, 254, 0.08) 0%, transparent 40%);
-        }
+---
 
-        .badge-status {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            background: rgba(0, 255, 135, 0.1);
-            color: var(--accent-green);
-            padding: 6px 14px;
-            border-radius: 20px;
-            font-size: 0.85rem;
-            font-weight: 600;
-            margin-bottom: 1.5rem;
-            width: fit-content;
-            border: 1px solid rgba(0, 255, 135, 0.2);
-        }
+### 📫 Conéctate conmigo
 
-        .status-dot {
-            width: 8px;
-            height: 8px;
-            background-color: var(--accent-green);
-            border-radius: 50%;
-            box-shadow: 0 0 8px var(--accent-green);
-        }
+<p>
+  <a href="https://www.linkedin.com/in/mateo-renato-herrera-lescano-365a963a1" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:tu-correo@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+  </a>
+  <a href="https://github.com/MateoHerrera1234" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+</p>
 
-        .hero h1 {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: clamp(3rem, 8vw, 6rem);
-            font-weight: 700;
-            line-height: 1;
-            margin-bottom: 1rem;
-            background: linear-gradient(90deg, #fff, var(--text-muted));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .hero h1 span {
-            background: linear-gradient(90deg, var(--accent-neon), var(--accent-green));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .hero p {
-            font-size: 1.2rem;
-            color: var(--text-muted);
-            max-width: 600px;
-            margin-bottom: 2rem;
-        }
-
-        .hero-btns {
-            display: flex;
-            gap: 1rem;
-        }
-
-        .btn {
-            padding: 0.8rem 1.8rem;
-            border-radius: 8px;
-            font-weight: 600;
-            text-decoration: none;
-            transition: all 0.3s ease;
-        }
-
-        .btn-primary {
-            background: var(--accent-neon);
-            color: #000;
-            box-shadow: 0 0 15px rgba(0, 242, 254, 0.3);
-        }
-
-        .btn-primary:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 0 25px rgba(0, 242, 254, 0.5);
-        }
-
-        .btn-secondary {
-            background: transparent;
-            color: var(--text-main);
-            border: 1px solid var(--border-color);
-        }
-
-        .btn-secondary:hover {
-            border-color: var(--accent-neon);
-            color: var(--accent-neon);
-        }
-
-        /* Section Styles */
-        section {
-            padding: 6rem 10%;
-        }
-
-        .section-title {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 2.2rem;
-            margin-bottom: 3rem;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .section-title::after {
-            content: '';
-            flex-grow: 1;
-            height: 1px;
-            background: var(--border-color);
-            margin-left: 20px;
-        }
-
-        /* Skills Grid */
-        .skills-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1.5rem;
-        }
-
-        .skill-card {
-            background: var(--card-bg);
-            padding: 1.5rem;
-            border-radius: 12px;
-            border: 1px solid var(--border-color);
-            transition: transform 0.3s, border-color 0.3s;
-        }
-
-        .skill-card:hover {
-            transform: translateY(-5px);
-            border-color: var(--accent-neon);
-        }
-
-        .skill-card h3 {
-            color: var(--accent-neon);
-            margin-bottom: 1rem;
-            font-size: 1.1rem;
-        }
-
-        .skill-tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-        }
-
-        .tag {
-            background: rgba(255, 255, 255, 0.05);
-            padding: 4px 10px;
-            border-radius: 6px;
-            font-size: 0.85rem;
-            color: var(--text-muted);
-        }
-
-        /* Projects Grid */
-        .projects-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-        }
-
-        .project-card {
-            background: var(--card-bg);
-            border-radius: 12px;
-            padding: 2rem;
-            border: 1px solid var(--border-color);
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            transition: border-color 0.3s;
-        }
-
-        .project-card:hover {
-            border-color: var(--accent-green);
-        }
-
-        .project-card h3 {
-            font-size: 1.4rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .project-card p {
-            color: var(--text-muted);
-            font-size: 0.95rem;
-            margin-bottom: 1.5rem;
-        }
-
-        .project-links {
-            display: flex;
-            gap: 1rem;
-        }
-
-        .project-links a {
-            color: var(--accent-neon);
-            text-decoration: none;
-            font-size: 0.9rem;
-            font-weight: 600;
-        }
-
-        /* Contact Section */
-        .contact-box {
-            background: linear-gradient(135deg, rgba(0,242,254,0.05), rgba(0,255,135,0.05));
-            border: 1px solid var(--border-color);
-            padding: 4rem;
-            border-radius: 20px;
-            text-align: center;
-        }
-
-        .contact-box h2 {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 3rem;
-            margin-bottom: 1rem;
-        }
-
-        /* Footer */
-        footer {
-            text-align: center;
-            padding: 2rem;
-            color: var(--text-muted);
-            font-size: 0.85rem;
-            border-top: 1px solid var(--border-color);
-        }
-    </style>
-</head>
-<body>
-
-    <header>
-        <div class="logo">MH/</div>
-        <div class="nav-container">
-            <nav>
-                <a href="#skills">Skills</a>
-                <a href="#proyectos">Proyectos</a>
-                <a href="#sobre-mi">Sobre Mí</a>
-                <a href="#contacto">Contacto</a>
-            </nav>
-            <a href="https://github.com/MateoHerrera1234" target="_blank" class="nav-github-btn">GitHub ↗</a>
-        </div>
-    </header>
-
-    <section class="hero">
-        <div class="badge-status">
-            <span class="status-dot"></span> DISPONIBLE PARA PROYECTOS Y COLABORACIONES
-        </div>
-        <h1>Mateo<br><span>Herrera.</span></h1>
-        <p>Desarrollador Full Stack | Estudiante de Ingeniería en Sistemas en la Universidad Técnica de Ambato (Ecuador). Apasionado por la arquitectura limpia y el desarrollo de software escalable.</p>
-        <div class="hero-btns">
-            <a href="#proyectos" class="btn btn-primary">Ver Proyectos →</a>
-            <a href="https://github.com/MateoHerrera1234" target="_blank" class="btn btn-secondary">GitHub</a>
-        </div>
-    </section>
-
-    <section id="skills">
-        <h2 class="section-title">Tecnologías & Habilidades</h2>
-        <div class="skills-grid">
-            <div class="skill-card">
-                <h3>Backend & Lenguajes</h3>
-                <div class="skill-tags">
-                    <span class="tag">C#</span>
-                    <span class="tag">.NET Web API</span>
-                    <span class="tag">Java</span>
-                    <span class="tag">PHP</span>
-                </div>
-            </div>
-            <div class="skill-card">
-                <h3>Frontend</h3>
-                <div class="skill-tags">
-                    <span class="tag">JavaScript</span>
-                    <span class="tag">React</span>
-                    <span class="tag">HTML5 / CSS3</span>
-                </div>
-            </div>
-            <div class="skill-card">
-                <h3>Base de Datos</h3>
-                <div class="skill-tags">
-                    <span class="tag">SQL Server</span>
-                    <span class="tag">Relational DBs</span>
-                </div>
-            </div>
-            <div class="skill-card">
-                <h3>Herramientas & Métodos</h3>
-                <div class="skill-tags">
-                    <span class="tag">Git & GitHub</span>
-                    <span class="tag">Clean Architecture</span>
-                    <span class="tag">Metodologías Ágiles</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="proyectos">
-        <h2 class="section-title">Proyectos Destacados</h2>
-        <div class="projects-grid">
-            <div class="project-card">
-                <div>
-                    <h3>LibroFacil</h3>
-                    <p>Web API para la gestión de libros construida con C# y .NET, implementando Clean Architecture, Domain-Driven Design (DDD) y Entity Framework Core.</p>
-                </div>
-                <div class="project-links">
-                    <a href="https://github.com/MateoHerrera1234/LibroFacil" target="_blank">Ver Repositorio →</a>
-                </div>
-            </div>
-            <div class="project-card">
-                <div>
-                    <h3>sistema-ventas-Frontend</h3>
-                    <p>Interfaz de usuario moderna y responsiva para sistema de gestión de ventas orientada al cliente.</p>
-                </div>
-                <div class="project-links">
-                    <a href="https://github.com/MateoHerrera1234/sistema-ventas-Frontend" target="_blank">Ver Repositorio →</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contacto">
-        <div class="contact-box">
-            <h2>¿Trabajamos juntos?</h2>
-            <p style="margin-bottom: 2rem; color: var(--text-muted);">Abierto a proyectos, colaboraciones open-source y oportunidades profesionales.</p>
-            <a href="https://www.linkedin.com/in/mateo-renato-herrera-lescano-365a963a1" target="_blank" class="btn btn-primary">Conectar en LinkedIn →</a>
-        </div>
-    </section>
-
-    <footer>
-        © 2026 Mateo Herrera. Hecho con ⚡ desde Ecuador.
-    </footer>
-
-</body>
-</html>
+> ⭐ *Si algo de lo que construyo te parece útil, ¡no olvides darle una estrella!*
