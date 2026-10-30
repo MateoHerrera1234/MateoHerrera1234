@@ -38,8 +38,6 @@
 | **LibroFacil** | Web API de gestión de libros aplicando Clean Architecture, DDD y EF Core. | C# / .NET |
 | **sistema-ventas-Frontend** | Interfaz frontend orientada a la gestión de ventas. | JavaScript |
 
-*(Nota: Puedes agregar o modificar los proyectos de esta tabla fácilmente cuando lo desees).*
-
 ---
 
 ###  📫 Conéctate conmigo
